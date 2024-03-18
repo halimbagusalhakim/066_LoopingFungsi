@@ -10,13 +10,13 @@ int main() {
     }
     
     for (i = 0; i < 5; i++){
-        cout << "masukan nama = ";
+        cout << "masukan Bilangan = ";
         cin >> arr[i];
 
     }
 
     for (i = 0; i < 5; i++){
-        cout << "nama ke - " << i << " : "<< arr[i] << endl;
+        cout << "Bilangan ke - " << i << " : "<< arr[i] << endl;
     }
 
     return 0;
